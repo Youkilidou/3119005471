@@ -2,10 +2,10 @@ package Paper;
 
 public class Hamming{
 	 /**
-     * 输入两个simHash值，计算它们的海明距离
+     * 输入两个simHash值，计算它们的汉明距离
      * @param simHash1
      * @param simHash2
-     * @return 海明距离
+     * @return 汉明距离
      */
     public static int getHammingDistance(String simHash1, String simHash2) {//汉明距离#######
         int distance = 0;
@@ -31,9 +31,9 @@ public class Hamming{
      */
     public static double getSimilarity(String simHash1, String simHash2) {//相似度#########
     	
-        // 通过 simHash1 和 simHash2 获得它们的海明距离
+        // 通过 simHash1 和 simHash2 获得它们的汉明距离
         int distance = getHammingDistance(simHash1, simHash2);
-        // 通过海明距离计算出相似度，并返回
+        // 通过汉明距离计算出相似度，并返回
         return 0.01 * (100 - distance * 100 / 128);
     }
 
