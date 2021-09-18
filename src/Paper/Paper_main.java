@@ -6,12 +6,12 @@ public class Paper_main {
     public static void main(String[] args) {
     	Scanner sc=new Scanner(System.in);
  	    String in="";
- 	       System.out.println("请输入文本1");
+ 	       System.out.println("请输入文本1绝对路径");
  	    in=sc.next();
  	    //args[0]=in;
         // 从命令行输入的路径名读取对应的文件，将文件的内容转化为对应的字符串
         String str0 = I_O.readTxt(in);
-           System.out.println("请输入文本2");
+           System.out.println("请输入文本2绝对路径");
         in=sc.next();
         
         String str1 = I_O.readTxt(in);
@@ -22,7 +22,7 @@ public class Paper_main {
         // 由 simHash值求出相似度
         double similarity = Hamming.getSimilarity(simHash0, simHash1);
         // 把相似度写入最后的结果文件中
-             System.out.println("请输入结果文本");
+             System.out.println("请输入结果文本绝对路径");
              in=sc.next();
             // resultFileName=in;
         I_O.writeTxt(similarity, in);
