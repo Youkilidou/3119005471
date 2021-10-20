@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class OutputArithmetic {
     static int count = 1;
-    static private final String filePath ="d://Exercises.txt";
+    static private final String filePath ="e://AAA//Exercises.txt";
     static private BufferedWriter bufferedWriter;
 
     static {

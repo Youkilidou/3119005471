@@ -5,7 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class OutputAnser {
-    static private final String filePath ="d://Answers.txt";
+    static private final String filePath ="E://AAA//Answers.txt";
     static private BufferedWriter bufferedWriter;
     static private int count = 1;
 

@@ -133,10 +133,5 @@ public class Fraction {
         return integer+"'"+numerator+"/"+denominator;
     }
 
-/*    public static void main(String[] args) {
-        Fraction fraction = new Fraction(0,2);
-        Fraction fraction1 = new Fraction(18,5);
-        System.out.println(fraction.f(-36,18));
-        System.out.println(fraction.sub(fraction1));
-    }*/
+
 }
